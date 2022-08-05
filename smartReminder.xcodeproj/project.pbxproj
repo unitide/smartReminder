@@ -10,12 +10,11 @@
 		7DD90083287CD8EE00DB16C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD90082287CD8EE00DB16C8 /* AppDelegate.swift */; };
 		7DD90085287CD8EE00DB16C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD90084287CD8EE00DB16C8 /* SceneDelegate.swift */; };
 		7DD90087287CD8EE00DB16C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD90086287CD8EE00DB16C8 /* ViewController.swift */; };
-		7DD9008A287CD8EE00DB16C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DD90088287CD8EE00DB16C8 /* Main.storyboard */; };
 		7DD9008C287CD8F000DB16C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DD9008B287CD8F000DB16C8 /* Assets.xcassets */; };
 		7DD9008F287CD8F000DB16C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DD9008D287CD8F000DB16C8 /* LaunchScreen.storyboard */; };
-		7DD9009A287CD8F100DB16C8 /* smartReminderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD90099287CD8F100DB16C8 /* smartReminderTests.swift */; };
-		7DD900A4287CD8F100DB16C8 /* smartReminderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD900A3287CD8F100DB16C8 /* smartReminderUITests.swift */; };
-		7DD900A6287CD8F100DB16C8 /* smartReminderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD900A5287CD8F100DB16C8 /* smartReminderUITestsLaunchTests.swift */; };
+		7DD9009A287CD8F100DB16C8 /* SmartReminderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD90099287CD8F100DB16C8 /* SmartReminderTests.swift */; };
+		7DD900A4287CD8F100DB16C8 /* SmartReminderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD900A3287CD8F100DB16C8 /* SmartReminderUITests.swift */; };
+		7DD900A6287CD8F100DB16C8 /* SmartReminderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD900A5287CD8F100DB16C8 /* SmartReminderUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,15 +39,14 @@
 		7DD90082287CD8EE00DB16C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DD90084287CD8EE00DB16C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7DD90086287CD8EE00DB16C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7DD90089287CD8EE00DB16C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7DD9008B287CD8F000DB16C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DD9008E287CD8F000DB16C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DD90090287CD8F000DB16C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DD90095287CD8F100DB16C8 /* smartReminderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smartReminderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7DD90099287CD8F100DB16C8 /* smartReminderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartReminderTests.swift; sourceTree = "<group>"; };
+		7DD90099287CD8F100DB16C8 /* SmartReminderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartReminderTests.swift; sourceTree = "<group>"; };
 		7DD9009F287CD8F100DB16C8 /* smartReminderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smartReminderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7DD900A3287CD8F100DB16C8 /* smartReminderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartReminderUITests.swift; sourceTree = "<group>"; };
-		7DD900A5287CD8F100DB16C8 /* smartReminderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartReminderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7DD900A3287CD8F100DB16C8 /* SmartReminderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartReminderUITests.swift; sourceTree = "<group>"; };
+		7DD900A5287CD8F100DB16C8 /* SmartReminderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartReminderUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +97,10 @@
 		7DD90081287CD8EE00DB16C8 /* smartReminder */ = {
 			isa = PBXGroup;
 			children = (
+				7DE44204289DB90C001056FC /* ViewControllers */,
 				7DD90082287CD8EE00DB16C8 /* AppDelegate.swift */,
 				7DD90084287CD8EE00DB16C8 /* SceneDelegate.swift */,
 				7DD90086287CD8EE00DB16C8 /* ViewController.swift */,
-				7DD90088287CD8EE00DB16C8 /* Main.storyboard */,
 				7DD9008B287CD8F000DB16C8 /* Assets.xcassets */,
 				7DD9008D287CD8F000DB16C8 /* LaunchScreen.storyboard */,
 				7DD90090287CD8F000DB16C8 /* Info.plist */,
@@ -113,7 +111,7 @@
 		7DD90098287CD8F100DB16C8 /* smartReminderTests */ = {
 			isa = PBXGroup;
 			children = (
-				7DD90099287CD8F100DB16C8 /* smartReminderTests.swift */,
+				7DD90099287CD8F100DB16C8 /* SmartReminderTests.swift */,
 			);
 			path = smartReminderTests;
 			sourceTree = "<group>";
@@ -121,10 +119,25 @@
 		7DD900A2287CD8F100DB16C8 /* smartReminderUITests */ = {
 			isa = PBXGroup;
 			children = (
-				7DD900A3287CD8F100DB16C8 /* smartReminderUITests.swift */,
-				7DD900A5287CD8F100DB16C8 /* smartReminderUITestsLaunchTests.swift */,
+				7DD900A3287CD8F100DB16C8 /* SmartReminderUITests.swift */,
+				7DD900A5287CD8F100DB16C8 /* SmartReminderUITestsLaunchTests.swift */,
 			);
 			path = smartReminderUITests;
+			sourceTree = "<group>";
+		};
+		7DE44204289DB90C001056FC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7DE44205289DB921001056FC /* UserManagement */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7DE44205289DB921001056FC /* UserManagement */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UserManagement;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +150,7 @@
 				7DD9007B287CD8EE00DB16C8 /* Sources */,
 				7DD9007C287CD8EE00DB16C8 /* Frameworks */,
 				7DD9007D287CD8EE00DB16C8 /* Resources */,
+				7DE44206289DBAA5001056FC /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -233,7 +247,6 @@
 			files = (
 				7DD9008F287CD8F000DB16C8 /* LaunchScreen.storyboard in Resources */,
 				7DD9008C287CD8F000DB16C8 /* Assets.xcassets in Resources */,
-				7DD9008A287CD8EE00DB16C8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +266,26 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7DE44206289DBAA5001056FC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7DD9007B287CD8EE00DB16C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -268,7 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DD9009A287CD8F100DB16C8 /* smartReminderTests.swift in Sources */,
+				7DD9009A287CD8F100DB16C8 /* SmartReminderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +309,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DD900A6287CD8F100DB16C8 /* smartReminderUITestsLaunchTests.swift in Sources */,
-				7DD900A4287CD8F100DB16C8 /* smartReminderUITests.swift in Sources */,
+				7DD900A6287CD8F100DB16C8 /* SmartReminderUITestsLaunchTests.swift in Sources */,
+				7DD900A4287CD8F100DB16C8 /* SmartReminderUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +330,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7DD90088287CD8EE00DB16C8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7DD90089287CD8EE00DB16C8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7DD9008D287CD8F000DB16C8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,7 +467,8 @@
 				INFOPLIST_FILE = smartReminder/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -454,7 +480,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -470,7 +496,8 @@
 				INFOPLIST_FILE = smartReminder/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -482,7 +509,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
