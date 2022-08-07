@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7DD8580A289FF9CC00BD6D65 /* UserRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD85809289FF9CC00BD6D65 /* UserRegisterViewController.swift */; };
+		7DD8580D289FFBBC00BD6D65 /* TextFieldWithPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD8580C289FFBBB00BD6D65 /* TextFieldWithPadding.swift */; };
 		7DD90083287CD8EE00DB16C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD90082287CD8EE00DB16C8 /* AppDelegate.swift */; };
 		7DD90085287CD8EE00DB16C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD90084287CD8EE00DB16C8 /* SceneDelegate.swift */; };
 		7DD90087287CD8EE00DB16C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD90086287CD8EE00DB16C8 /* ViewController.swift */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7DD85809289FF9CC00BD6D65 /* UserRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegisterViewController.swift; sourceTree = "<group>"; };
+		7DD8580C289FFBBB00BD6D65 /* TextFieldWithPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldWithPadding.swift; sourceTree = "<group>"; };
 		7DD9007F287CD8EE00DB16C8 /* smartReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smartReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DD90082287CD8EE00DB16C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DD90084287CD8EE00DB16C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +86,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7DD8580B289FFB2400BD6D65 /* CommonViewComponet */ = {
+			isa = PBXGroup;
+			children = (
+				7DD8580C289FFBBB00BD6D65 /* TextFieldWithPadding.swift */,
+			);
+			path = CommonViewComponet;
+			sourceTree = "<group>";
+		};
 		7DD90076287CD8EE00DB16C8 = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +148,7 @@
 		7DE44204289DB90C001056FC /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				7DD8580B289FFB2400BD6D65 /* CommonViewComponet */,
 				7DE4420B289DC112001056FC /* AlarmManagement */,
 				7DE4420A289DC0F8001056FC /* NotesManagement */,
 				7DE44207289DC078001056FC /* TabBarController */,
@@ -148,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				7DE44210289DC2B9001056FC /* LoginViewController.swift */,
+				7DD85809289FF9CC00BD6D65 /* UserRegisterViewController.swift */,
 			);
 			path = UserManagement;
 			sourceTree = "<group>";
@@ -331,8 +345,10 @@
 				7DE4420D289DC170001056FC /* AlarmViewController.swift in Sources */,
 				7DD90087287CD8EE00DB16C8 /* ViewController.swift in Sources */,
 				7DE44209289DC0D0001056FC /* TabBarController.swift in Sources */,
+				7DD8580A289FF9CC00BD6D65 /* UserRegisterViewController.swift in Sources */,
 				7DD90083287CD8EE00DB16C8 /* AppDelegate.swift in Sources */,
 				7DE4420F289DC19A001056FC /* NoteViewController.swift in Sources */,
+				7DD8580D289FFBBC00BD6D65 /* TextFieldWithPadding.swift in Sources */,
 				7DD90085287CD8EE00DB16C8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

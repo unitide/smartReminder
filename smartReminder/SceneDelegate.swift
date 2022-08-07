@@ -22,6 +22,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // `application:configurationForConnectingSceneSession` instead).
         guard let windowScene = (scene as? UIWindowScene) else { return }
         let window = UIWindow(windowScene: windowScene)
+        UserDefaults.standard.setValue(false, forKey: "login")
+        UserDefaults.standard.setValue("12345", forKey: "thomas")
         if let userDidLogin = UserDefaults.standard.value(forKey: "login") as? Bool, userDidLogin {
             let rootViewcontroller = TabBarController()
             window.rootViewController = rootViewcontroller
